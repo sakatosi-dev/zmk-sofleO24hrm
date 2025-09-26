@@ -1,70 +1,70 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: /, s: '?'}
   - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-down-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
-  - A
-  - S
-  - D
-  - F
-  - G
-  - $$mdi:arrow-left-bold$$
-  - H
-  - J
-  - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - U
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - $$mdi:arrow-up-bold$$
+  - F
+  - W
+  - R
+  - Y
+  - P
   - Z
+  - $$mdi:keyboard-tab$$
+  - E
+  - I
+  - A
+  - O
+  - {t: '-', s: _}
+  - $$mdi:arrow-down-bold$$
+  - {t: '[', s: '{'}
+  - K
+  - T
+  - N
+  - S
+  - H
+  - $$mdi:keyboard-esc$$
+  - {t: '''', s: '"'}
   - X
   - C
   - V
-  - B
-  - $$mdi:arrow-right-bold$$
-  - N
+  - {t: ;, s: ':'}
+  - $$mdi:arrow-left-bold$$
+  - {t: ']', s: '}'}
+  - G
+  - D
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-off$$
+  - J
+  - B
+  - {t: '5', s: '%'}
+  - {t: '1', s: '!'}
+  - {t: '4', s: $}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '`', s: '~'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - {t: '=', s: +}
+  - {t: \, s: '|'}
+  - {t: '8', s: '*'}
+  - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
   - layer1
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer2
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -122,8 +122,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,9 +190,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer3:
