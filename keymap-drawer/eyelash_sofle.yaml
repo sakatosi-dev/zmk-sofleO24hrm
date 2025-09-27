@@ -54,8 +54,8 @@ layers:
   - {t: \, s: '|'}
   - {t: '8', s: '*'}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - layer1
