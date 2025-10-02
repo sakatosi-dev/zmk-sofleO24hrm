@@ -86,7 +86,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
+  - RGB COLOR HSB(270,43,50)
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
@@ -99,7 +99,7 @@ layers:
   - RGB SPD
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
+  - RGB TOG
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
