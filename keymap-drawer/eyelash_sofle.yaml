@@ -18,7 +18,7 @@ layers:
   - E
   - I
   - A
-  - O
+  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - K
@@ -90,8 +90,8 @@ layers:
   - END
   - $$mdi:arrow-up-bold$$
   - HOME
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - PgDn
+  - PG UP
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
