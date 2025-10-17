@@ -54,15 +54,14 @@
 
         layer0 {
             bindings = <
-&kp FSLH    &kp Q         &kp L         &kp U   &kp COMMA    &kp DOT          &kp UP_ARROW     &kp F            &kp W             &kp R              &kp Y      &kp P     &kp Z
-&kp TAB     &kp E         &kp I         &kp A   &mt LCTRL O  &kp MINUS        &kp DOWN_ARROW   &kp K            &kp T             &kp N              &kp S      &kp H     &kp N9
-&kp ESC     &kp APOS      &kp X         &kp C   &kp V        &kp SEMI         &kp LEFT_ARROW   &kp G            &kp D             &kp M              &kp J      &kp B     &kp N0
-&kp N1      &kp N5        &kp N4        &kp N2  &kp N3       &kp LCTRL        &kp RIGHT_ARROW  &kp GRAVE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &kp BSLH  &kp N8
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1   &kp SPACE    &kp BACKSPACE    &kp ENTER        &kp RIGHT_SHIFT  &kp ENTER         &mo 2              &kp N6     &kp N7
+&kp FSLH    &kp Q         &mt W L       &kp U         &kp COMMA    &kp DOT          &kp UP_ARROW     &kp F            &kp W             &kp R              &kp Y       &kp P       &kp Z
+&kp TAB     &mt LALT E    &mt LGUI I    &mt LSHIFT A  &mt LCTRL O  &kp MINUS        &kp DOWN_ARROW   &kp K            &mt RCTRL T       &mt RSHIFT N       &mt RGUI S  &mt RALT H  &kp N9
+&kp ESC     &kp APOS      &kp X         &kp C         &kp V        &kp SEMI         &kp LEFT_ARROW   &kp G            &kp D             &kp M              &kp J       &kp B       &kp N0
+&kp N1      &kp N5        &kp N4        &kp N2        &kp N3       &kp LCTRL        &kp RIGHT_ARROW  &kp GRAVE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL   &kp BSLH    &kp N8
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1         &kp SPACE    &kp BACKSPACE    &kp ENTER        &kp RIGHT_SHIFT  &kp ENTER         &mo 2              &kp N6      &kp N7
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "Layer 0";
         };
 
         layer_1 {
@@ -74,7 +73,7 @@
 &kp C_MUTE    &kp CAPS          &trans          &trans           &trans           &trans             &mkp LCLK        &trans                            &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer1";
+            display-name = "Layer1";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -87,7 +86,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            display-name = "layer2";
+            display-name = "Layer2";
             sensor-bindings = <&scroll_encoder>;
         };
 
