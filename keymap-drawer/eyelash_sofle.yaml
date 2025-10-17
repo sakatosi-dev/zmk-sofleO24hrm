@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Layer 0:
   - {t: /, s: '?'}
   - Q
-  - L
+  - {t: L, h: W}
   - U
   - {t: ',', s: <}
   - {t: ., s: '>'}
@@ -15,17 +15,17 @@ layers:
   - P
   - Z
   - $$mdi:keyboard-tab$$
-  - E
-  - I
-  - A
+  - {t: E, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: I, h: LGUI}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
   - K
-  - T
-  - N
-  - S
-  - H
+  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: RGUI}
+  - {t: H, h: '$$mdi:apple-keyboard-option$$'}
   - {t: '9', s: (}
   - $$mdi:keyboard-esc$$
   - {t: '''', s: '"'}
@@ -56,16 +56,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - layer1
+  - Layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - layer2
+  - Layer2
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
-  layer1:
+  Layer1:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  layer2:
+  Layer2:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
