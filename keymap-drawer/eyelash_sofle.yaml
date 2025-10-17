@@ -48,8 +48,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-right-bold$$
   - {t: '`', s: '~'}
-  - {t: (, h: '['}
-  - {t: ), h: ']'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '=', s: +}
   - {t: \, s: '|'}
   - {t: '8', s: '*'}
