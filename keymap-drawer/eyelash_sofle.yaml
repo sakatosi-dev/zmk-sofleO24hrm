@@ -21,11 +21,11 @@ layers:
   - {t: O, h: '$$mdi:apple-keyboard-control$$'}
   - {t: '-', s: _}
   - $$mdi:arrow-down-bold$$
-  - K
+  - {t: K, h: RGUI}
   - {t: T, h: '$$mdi:apple-keyboard-control$$'}
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: RGUI}
-  - {t: H, h: '$$mdi:apple-keyboard-option$$'}
+  - S
+  - H
   - {t: '9', s: (}
   - $$mdi:keyboard-esc$$
   - {t: '''', s: '"'}
@@ -34,7 +34,7 @@ layers:
   - V
   - {t: ;, s: ':'}
   - $$mdi:arrow-left-bold$$
-  - G
+  - {t: G, h: '$$mdi:apple-keyboard-option$$'}
   - D
   - M
   - J
@@ -59,7 +59,7 @@ layers:
   - Layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&get_home'
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Layer2
