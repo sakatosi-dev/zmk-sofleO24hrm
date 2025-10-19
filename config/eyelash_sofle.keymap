@@ -54,16 +54,29 @@
         };
     };
 
+    macros {
+        get_home: get_home {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&none>,
+                <&macro_press>,
+                <&kp LG(H) &kp T &kp E &kp R &kp M &kp U &kp X &kp RET>;
+
+            label = "GET_HOME";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         layer0 {
             bindings = <
-&kp FSLH    &kp Q         &mt W L       &kp U         &kp COMMA    &kp DOT          &kp UP_ARROW     &kp F            &kp W             &kp R              &kp Y       &kp P       &kp Z
-&kp TAB     &mt LALT E    &mt LGUI I    &mt LSHIFT A  &mt LCTRL O  &kp MINUS        &kp DOWN_ARROW   &kp K            &mt RCTRL T       &mt RSHIFT N       &mt RGUI S  &mt RALT H  &kp N9
-&kp ESC     &kp APOS      &kp X         &kp C         &kp V        &kp SEMI         &kp LEFT_ARROW   &kp G            &kp D             &kp M              &kp J       &kp B       &kp N0
-&kp N1      &kp N5        &kp N4        &kp N2        &kp N3       &kp LCTRL        &kp RIGHT_ARROW  &kp GRAVE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL   &kp BSLH    &kp N8
-&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1         &kp SPACE    &kp BACKSPACE    &kp ENTER        &kp RIGHT_SHIFT  &kp ENTER         &mo 2              &kp N6      &kp N7
+&kp FSLH    &kp Q         &mt W L       &kp U         &kp COMMA    &kp DOT          &kp UP_ARROW     &kp F            &kp W             &kp R              &kp Y      &kp P     &kp Z
+&kp TAB     &mt LALT E    &mt LGUI I    &mt LSHIFT A  &mt LCTRL O  &kp MINUS        &kp DOWN_ARROW   &mt RGUI K       &mt RCTRL T       &mt RSHIFT N       &kp S      &kp H     &kp N9
+&kp ESC     &kp APOS      &kp X         &kp C         &kp V        &kp SEMI         &kp LEFT_ARROW   &mt RALT G       &kp D             &kp M              &kp J      &kp B     &kp N0
+&kp N1      &kp N5        &kp N4        &kp N2        &kp N3       &kp LCTRL        &kp RIGHT_ARROW  &kp GRAVE        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL  &kp BSLH  &kp N8
+&kp C_MUTE  &kp LEFT_ALT  &kp LEFT_GUI  &mo 1         &kp SPACE    &kp BACKSPACE    &get_home        &kp RIGHT_SHIFT  &kp ENTER         &mo 2              &kp N6     &kp N7
             >;
 
             display-name = "Layer 0";
